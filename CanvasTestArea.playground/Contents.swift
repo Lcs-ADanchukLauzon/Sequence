@@ -41,6 +41,7 @@ canvas.drawEllipse(centreX: 250, centreY: 110, width: 40, height: 30)
 
 canvas.drawEllipse(centreX: 240, centreY: 70, width: 25, height: 25)
 canvas.drawEllipse(centreX: 260, centreY: 70, width: 25, height: 25)
+// Eyes
 
 canvas.fillColor = Color.white
 canvas.borderColor = Color.white
@@ -48,7 +49,7 @@ canvas.drawEllipse(centreX: 236, centreY: 75, width: 18, height: 25)
 canvas.drawEllipse(centreX: 264, centreY: 75, width: 18, height: 25)
 canvas.drawEllipse(centreX: 250, centreY: 84, width: 18, height: 20)
 
-// Eyes
+
 canvas.fillColor = Color.black
 canvas.translate(byX: 200, byY: 150)
 canvas.rotate(by: -35)
