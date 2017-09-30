@@ -41,25 +41,27 @@ canvas.drawEllipse(centreX: 250, centreY: 110, width: 40, height: 30)
 
 canvas.drawEllipse(centreX: 240, centreY: 70, width: 25, height: 25)
 canvas.drawEllipse(centreX: 260, centreY: 70, width: 25, height: 25)
-// Eyes
 
+// Eyes
 canvas.fillColor = Color.white
 canvas.borderColor = Color.white
 canvas.drawEllipse(centreX: 236, centreY: 75, width: 18, height: 25)
 canvas.drawEllipse(centreX: 264, centreY: 75, width: 18, height: 25)
 canvas.drawEllipse(centreX: 250, centreY: 84, width: 18, height: 20)
 
-
+// left eye black surrounding
 canvas.fillColor = Color.black
 canvas.translate(byX: 200, byY: 150)
 canvas.rotate(by: -35)
 canvas.drawEllipse(centreX: 0, centreY: 0, width: 50, height: 70)
 
+// right eye black surrounding
 canvas.rotate(by: 35)
 canvas.translate(byX: 100, byY: 0)
 canvas.rotate(by: 35)
 canvas.drawEllipse(centreX: 0, centreY: 0, width: 50, height: 70)
 
+// white surrounding the pupils
 canvas.rotate(by: -35)
 canvas.translate(byX: -300, byY: -150)
 canvas.fillColor = Color.white
@@ -75,8 +77,7 @@ canvas.fillColor = Color.white
 canvas.drawEllipse(centreX: 213, centreY: 158, width: 5, height: 5)
 canvas.drawEllipse(centreX: 293, centreY: 158, width: 5, height: 5)
 
-// The blush
-// 0 50 100 50
+// The blush (pink under the eyes)
 canvas.fillColor = Color.init(hue: 0, saturation: 50, brightness: 100, alpha: 100)
 canvas.drawEllipse(centreX: 180, centreY: 100, width: 45, height: 20)
 canvas.drawEllipse(centreX: 320, centreY: 100, width: 45, height: 20)
